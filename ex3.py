@@ -1,0 +1,7 @@
+print ("Please fill in the blanks below:")
+print ("____(name)____'s favorite subject in school is ____(subject)___.")
+raw_input = input("What is name? ")
+name = str(raw_input)
+raw_input = input("What is subject? ")
+subject = str(raw_input)
+print (name + "'s favorite subject in school is " + subject + ".")
